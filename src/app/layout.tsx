@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-purple-100">
       <body className="antialiased">
         <Providers>{children}</Providers>
       </body>
